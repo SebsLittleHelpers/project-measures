@@ -3,7 +3,7 @@
 mkdir -p "results" 
 
 repo='git@github.com:SebsLittleHelpers/scala-js.git'
-repoFolder='repo'
+repoFolder='scala-js'
 
 if [ ! -d "$repoFolder" ]; then
   rm -rf "$repoFolder"
