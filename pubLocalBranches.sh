@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-mkdir -p "results" 
-
 scalaJS='scala-js'
 
 if [ ! -d "$scalaJS" ]; then
